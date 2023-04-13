@@ -89,6 +89,12 @@ const App = ({ signOut }) => {
             variation="quiet"
             required
           />
+          <View
+                name="image"
+                as="input"
+                type="file"
+                style={{ alignSelf: "end" }}
+              />
           <Button type="submit" variation="primary">
             Create Note
           </Button>
@@ -111,7 +117,7 @@ const App = ({ signOut }) => {
       <Image
         src={note.image}
         alt={`visual aid for ${notes.name}`}
-        style={{ width: 400 }}
+        style={{ width: 50 }}
       />
     )}
     <Button variation="link" onClick={() => deleteNote(note)}>
@@ -123,6 +129,7 @@ const App = ({ signOut }) => {
  <View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
+
     </View>
 
 
