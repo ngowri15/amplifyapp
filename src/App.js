@@ -120,7 +120,7 @@ const App = ({ signOut }) => {
   </Flex>
 ))}
 </view>
-      </View>
+      <View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
 <View
