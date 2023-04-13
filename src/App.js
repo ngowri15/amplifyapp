@@ -119,6 +119,7 @@ const App = ({ signOut }) => {
     </Button>
   </Flex>
 ))}
+</view>
       </View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
