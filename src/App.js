@@ -123,12 +123,7 @@ const App = ({ signOut }) => {
       <View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
-<View
-  name="image"
-  as="input"
-  type="file"
-  style={{ alignSelf: "end" }}
-/>
+
   );
 };
 
