@@ -126,9 +126,19 @@ const App = ({ signOut }) => {
     </Button>
   </Flex>
 ))}
+</View>
+
+
+     <View>
+      <Button onClick={fetchNotes}>List Notes</Button>
+    </View>
+ 
+<View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
     </View>
+
+
   );
 };
 
